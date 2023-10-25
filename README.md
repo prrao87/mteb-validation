@@ -2,10 +2,11 @@
 
 Comparing results of embedding models from the MTEB leaderboard.
 
-THe goal is to study the classes of embeddings models that top the MTEB leaderboard produces high-quality embeddings across domains.
+The goal is to study the classes of embeddings models that top the MTEB leaderboard produces high-quality embeddings across domains.
 
-The [MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard), or the “Massive Text Embedding Benchmark”, ranks sentence embedding models over a total of 129 total datasets and 113 different languages. Because there are ever more models being added to this leaderboard, it becomes necessary to evaluate specific models on custom datasets of interest.
-The goal of this document is to define and describe the target tasks that will be used to evaluate the results of embedding models from the MTEB leaderboard.
+The [MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard), or the “Massive Text Embedding Benchmark”, ranks sentence embedding models over a total of 129 total datasets and 113 different languages. Because there are ever more models being added to this leaderboard, it becomes necessary to evaluate specific models on custom datasets of 
+
+The goal of this repo is to define and describe the target tasks that will be used to evaluate the results of embedding models from the MTEB leaderboard.
 
 ## Datasets
 
