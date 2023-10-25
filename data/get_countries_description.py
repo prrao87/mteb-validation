@@ -10,7 +10,7 @@ def write_data_to_txt(country: str, text: str):
 
 def get_country_description(country_name: str) -> str:
     # Create a Wikipedia API client
-    wiki_wiki = wikipediaapi.Wikipedia("CountriesScraper (prrao87@gmail.com)", "en")
+    wiki_wiki = wikipediaapi.Wikipedia("CountriesScraper (myemail@email.com)", "en")
 
     # Fetch the page for the given country
     page = wiki_wiki.page(country_name)
